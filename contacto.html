@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Alex Deportes</title>
+</head>
+<body>
+    <main class="contenedor">
+        <!-- Encabezado Principal -->
+        <header>
+            <div class="logo-titulo">
+                <a href="index.html">
+                    <h1>Alex Deportes</h1>
+                </a>
+            </div>
+            <nav id="nav">
+                <a href="index.html" >Inicio</a>
+                <a href="tienda.html">Tienda</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html" class="selected">Contacto</a>
+                <!-- Icono Cerrar Menu Responsive-->
+                <span id="close-responsive">
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+            </nav>
+            <!-- Icono Menu Responsive -->
+            <div id="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="carrito">
+                <span class="total-compra">$ 55,000.00</span>
+                <a href="carrito.html">
+                    <span class="icono-carrito">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <div class="total-item-carrito">
+                            2
+                        </div>
+                    </span>
+                </a>
+            </div>
+        </header>
+        <!-- Seccion Inicio -->
+        <section class="contenedor-seccion">
+            <div class="fondo-seccion"></div>
+
+            <div class="header-seccion">
+                <div class="col">
+                    <strong><span class="link-blanco">Contacto</span></strong>
+                </div>
+                <div class="centro">
+                    <h2>Contacto</h2>
+                </div>
+                <div class="col busqueda">
+                   <strong></strong>
+                </div>
+            </div>
+
+            <!-- Seccion contacto -->
+            <section class="contacto">
+                <div class="fila">
+                    <div class="col">
+                        <form action="">
+                            <input type="text" placeholder="Nombre">
+                            <input type="email" placeholder="Correo">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje..."></textarea>
+                            <button class="btn-contacto">Enviar consulta</button>
+                        </form>
+                    </div>
+                    <div class="col derecha">
+                        <h2>CONTACTANOS <br/> AHORA</h2>
+                        <img src="img/contacto.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
